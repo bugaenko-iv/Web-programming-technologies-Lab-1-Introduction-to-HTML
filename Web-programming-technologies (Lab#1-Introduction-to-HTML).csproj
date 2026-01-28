@@ -7,4 +7,8 @@
     <RootNamespace>Web_programming_technologies__Lab_1_Introduction_to_HTML_</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="font-awesome" Version="4.7.0" />
+  </ItemGroup>
+
 </Project>
