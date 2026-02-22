@@ -19,6 +19,8 @@ namespace Web_programming_technologies__Lab_1_Introduction_to_HTML_
                 app.UseHsts();
             }
 
+            app.UseStaticFiles();
+
             app.UseHttpsRedirection();
             app.UseRouting();
 

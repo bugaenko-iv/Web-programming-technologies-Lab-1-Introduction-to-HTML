@@ -8,7 +8,7 @@ namespace Web_programming_technologies__Lab_1_Introduction_to_HTML_.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return Redirect("index.html");
         }
 
         public IActionResult Privacy()
