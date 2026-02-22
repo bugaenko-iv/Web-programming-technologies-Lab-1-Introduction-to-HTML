@@ -8,12 +8,45 @@
     <link href="css/site.css" rel="stylesheet" />
 </head>
 <body>
-    <header>
+    <header>        
         <div class="container">
             <!-- Панель навигации -->
-            <span class="nav-color">Заголовок страницы</span>
-        </div><!-- container - конец -->
-    </header><!-- header - конец -->
+            <nav class="navbar navbar-expand-md">
+                <!-- меню сайта -->
+                <a class="navbar-brand" style="color: white" href="#">WebLabsV03</a>
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" style="color: white" href="#">Лб 1</a>
+                    <a class="nav-item nav-link" style="color: gray" href="#">Каталог</a>
+                    <a class="nav-item nav-link" style="color: gray" href="#">Администрирование</a>
+                </div>
+                <!-- меню сайта - конец -->
+                <!-- Информация пользователя -->
+                <a href="#" class="navbar-text ms-auto">
+                    00,0 руб <i class="fas fa-shopping-cart nav-color"></i> (0)
+                </a>
+                <div class="dropdown ml-4 nav-color">
+                    <div class="dropdown-toggle" id="dropdownMenuButton"
+                         data-toggle="dropdown" aria-haspopup="true"
+                         aria-expanded="false">
+                        <img src="images/avatar.png" width="30"
+                             alt="User" class="rounded" />
+                    </div>
+                    <div class="dropdown-menu"
+                         aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-item-text">
+                            <img src="images/avatar.png" width="50" alt="User"
+                                 class="rounded" />
+                            user@mail.ru
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Мои товары</a>
+                        <a class="dropdown-item" href="#">Выход</a>
+                    </div>
+                </div>
+                <!-- Информация пользователя - конец -->
+            </nav> <!-- Панель навигации - конец -->
+        </div>
+    </header>
     <main class="container">
         Содержимое страницы
     </main>
