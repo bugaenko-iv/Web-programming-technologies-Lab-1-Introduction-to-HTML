@@ -48,7 +48,66 @@
         </div>
     </header>
     <main class="container">
-        Содержимое страницы
+        <h1>Лабораторная работа 1</h1>
+        <div>
+            <h1>Список</h1>
+            <ol type="A" class="ms-4 fs-5">
+                <li>элемент 1 списка</li>
+                <li>элемент 2 списка</li>
+            </ol>
+            <hr />
+        </div>
+
+        <div>
+            <h1>Форма</h1>
+            <form method="post">
+                <div style="margin-left: 220px;">
+                    <input name="check1" type="checkbox" id="checkbox1" class="form-check-input"/>
+                    <label for="checkbox1" class="form-check-label">Чек-бокс 1</label>
+
+                    <br />
+
+                    <input name="check2" type="checkbox" id="checkbox2" class="form-check-input"/>
+                    <label for="checkbox2" class="form-check-label">Чек-бокс 2</label>
+                </div>
+
+                <br />
+
+                <div style="margin-left: 220px;">
+                    <input type="radio" id="radio1" name="radioButton" class="form-check-input" checked/>
+                    <label for="radio1" class="form-check-label me-4">Радио-1</label>
+
+                    <input type="radio" id="radio2" name="radioButton" class="form-check-input" />
+                    <label for="radio2" class="form-check-label me-4">Радио-2</label>
+
+                    <input type="radio" id="radio3" name="radioButton" class="form-check-input" />
+                    <label for="radio3" class="form-check-label">Радио-3</label>
+                </div>
+
+                <br />
+
+                <div>
+                    <div class="form-group row">
+                        <label for="inputLogin" class="col-sm-2 col-form-label">Логин:</label>
+                        <div class="col-sm-10">
+                            <input name="login" type="text" class="form-control" id="inputLogin" placeholder="Введите имя" autocomplete="off">
+                        </div>
+                    </div>
+
+                    <div class="form-group row mt-3">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Пароль:</label>
+                        <div class="col-sm-10">
+                            <input name="password" type="text" class="form-control" id="inputPassword" placeholder="Введите пароль" autocomplete="off">
+                        </div>
+                    </div>
+                </div>
+
+                <br />
+
+                <input type="submit" class="btn btn-info text-white" value="Отправить"/>
+
+            </form>
+        </div>
     </main>
     <footer class="fixed-bottom">
         <div class="container">
